@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'Raleway';
-  src: url('http://findmatthew.com/style/../fonts/Raleway-Regular.ttf');
+  src: url('../fonts/Raleway-Regular.ttf');
 }
 @font-face {
   font-family: 'Raleway-semibold';
-  src: url('http://findmatthew.com/style/../fonts/Raleway-SemiBold.ttf');
+  src: url('../fonts/Raleway-SemiBold.ttf');
 }
 @font-face {
   font-family: 'Raleway-bold';
-  src: url('http://findmatthew.com/style/../fonts/Raleway-Bold.ttf');
+  src: url('../fonts/Raleway-Bold.ttf');
 }
 @keyframes fadeIn {
   100% {
@@ -148,8 +148,7 @@ body {
 }
 
 .canvas {
-  background: url('http://findmatthew.com/style/../img/filler.png') center
-    center/cover;
+  background: url('../img/filter.png') center center/cover;
   height: 100%;
   left: 0;
   position: absolute;
@@ -744,15 +743,7 @@ section:nth-of-type(3) #gallery .mix:nth-child(8) .card {
 section:nth-of-type(3) #gallery .mix:nth-child(9) .card {
   background: url('../img/thumb-9.jpg') center center/cover;
 }
-section:nth-of-type(3) #gallery .mix:nth-child(10) .card {
-  background: url('../img/thumb-10.jpg') center center/cover;
-}
-section:nth-of-type(3) #gallery .mix:nth-child(11) .card {
-  background: url('../img/thumb-11.jpg') center center/cover;
-}
-section:nth-of-type(3) #gallery .mix:nth-child(12) .card {
-  background: url('../img/thumb-12.jpg') center center/cover;
-}
+
 section:nth-of-type(3) #gallery .mix .card {
   height: 240px;
   max-width: 100%;
@@ -795,22 +786,7 @@ section:nth-of-type(4) .blog-wrap {
   padding: 0 2px;
   width: 100%;
 }
-section:nth-of-type(4) .blog-wrap #thumb-1 {
-  background: url('http://findmatthew.com/style/../img/blog-1.jpg') center
-    center/cover;
-}
-section:nth-of-type(4) .blog-wrap #thumb-2 {
-  background: url('http://findmatthew.com/style/../img/blog-2.jpg') center
-    center/cover;
-}
-section:nth-of-type(4) .blog-wrap #thumb-3 {
-  background: url('http://findmatthew.com/style/../img/blog-3.jpg') center
-    center/cover;
-}
-section:nth-of-type(4) .blog-wrap #thumb-4 {
-  background: url('http://findmatthew.com/style/../img/blog-4.jpg') center
-    center/cover;
-}
+
 section:nth-of-type(4) .blog-wrap .fade-wrap {
   transition: opacity 0.3s;
 }
