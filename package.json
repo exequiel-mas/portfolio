@@ -6,10 +6,12 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Exequiel Massimelli Portfolio",
-  "main": "index.js",
+  "default": "script.js",
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "npx -p  parcel parcel build index.html --dist-dir ./dist",
+    "scss": "node-sass --watch scss -o css"
   },
   "author": "Exequiel Massimelli",
   "license": "ISC"
