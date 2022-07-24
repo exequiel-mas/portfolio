@@ -677,6 +677,18 @@ section:nth-of-type(2) .bar:nth-child(10) .fill {
   transition: width 2s ease-in-out .2s;
 }
 
+section:nth-of-type(2) .bar:nth-child(11) .fill {
+  transition: width 2.1s ease-in-out .2s;
+}
+
+section:nth-of-type(2) .bar:nth-child(12) .fill {
+  transition: width 2.2s ease-in-out .2s;
+}
+
+section:nth-of-type(2) .bar:nth-child(13) .fill {
+  transition: width 2.3s ease-in-out .2s;
+}
+
 section:nth-of-type(2) .bar span {
   display: none;
 }
@@ -844,6 +856,18 @@ section:nth-of-type(3) #gallery .mix:nth-child(8) .card {
 
 section:nth-of-type(3) #gallery .mix:nth-child(9) .card {
   background: url("thumb-9.e4ddc6ac.jpg") center / cover;
+}
+
+section:nth-of-type(3) #gallery .mix:nth-child(10) .card {
+  background: url("thumb-10.e8a65eb9.jpg") center / cover;
+}
+
+section:nth-of-type(3) #gallery .mix:nth-child(11) .card {
+  background: url("thumb-11.5cbe411b.jpg") center / cover;
+}
+
+section:nth-of-type(3) #gallery .mix:nth-child(12) .card {
+  background: url("thumb-12.19ce8f39.jpg") center / cover;
 }
 
 section:nth-of-type(3) #gallery .mix .card {

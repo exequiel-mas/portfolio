@@ -601,6 +601,15 @@ section:nth-of-type(2) .bar:nth-child(9) .fill {
 section:nth-of-type(2) .bar:nth-child(10) .fill {
   transition: 2s 0.2s width ease-in-out;
 }
+section:nth-of-type(2) .bar:nth-child(11) .fill {
+  transition: 2.1s 0.2s width ease-in-out;
+}
+section:nth-of-type(2) .bar:nth-child(12) .fill {
+  transition: 2.2s 0.2s width ease-in-out;
+}
+section:nth-of-type(2) .bar:nth-child(13) .fill {
+  transition: 2.3s 0.2s width ease-in-out;
+}
 section:nth-of-type(2) .bar span {
   display: none;
 }
@@ -743,7 +752,15 @@ section:nth-of-type(3) #gallery .mix:nth-child(8) .card {
 section:nth-of-type(3) #gallery .mix:nth-child(9) .card {
   background: url('../img/thumb-9.jpg') center center/cover;
 }
-
+section:nth-of-type(3) #gallery .mix:nth-child(10) .card {
+  background: url('../img/thumb-10.jpg') center center/cover;
+}
+section:nth-of-type(3) #gallery .mix:nth-child(11) .card {
+  background: url('../img/thumb-11.jpg') center center/cover;
+}
+section:nth-of-type(3) #gallery .mix:nth-child(12) .card {
+  background: url('../img/thumb-12.jpg') center center/cover;
+}
 section:nth-of-type(3) #gallery .mix .card {
   height: 240px;
   max-width: 100%;
