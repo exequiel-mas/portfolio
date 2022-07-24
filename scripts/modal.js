@@ -60,6 +60,24 @@ $(document).ready(function () {
       detail:
         'In this project I put my HTML and CSS knowledge to the test. Includes mobile and desktop layout',
     },
+    picsome: {
+      title: 'Pic Some',
+      tag: 'REACT ECOMMERCE',
+      detail: 'In this project I put my Advanced React knowledge in practice',
+      link: 'https://picsome-ex-mas.netlify.app',
+    },
+    meme: {
+      title: 'Meme Generator',
+      tag: 'Scrimba React Course',
+      detail: 'Tackling React Basics',
+      link: 'https://meme-generator-ex-mas.netlify.app',
+    },
+    forkify: {
+      title: 'Forkify App',
+      tag: 'FOOD RECIPES APP',
+      detail: 'Tackling Javascript Advanced',
+      link: 'https://github.com/exequiel-mas/forkify.git',
+    },
   };
 
   $('#gallery .button').on('click', function () {
