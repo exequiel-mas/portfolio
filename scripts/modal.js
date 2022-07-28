@@ -1,12 +1,18 @@
 $(document).ready(function () {
   // MODAL
   var modalText = {
+    starflix: {
+      title: 'Starflix',
+      tag: 'ENTERTAINMENT APP',
+      detail:
+        'Starflix is a great project, very scalable, where I applied almost everything I know about React. Here you can search for movies and series by genre, title and actors, you can add them to your watchlist. It uses react-router, redux, styled-components, my own hooks, react-icons, formik, material-ui and more. It is not ready for production yet, I am working on it. You can ask for my project files if you want',
+    },
     weather: {
       title: 'Weather App',
       tag: 'WEATHER APP',
       detail:
-        'Weather App is a project I did with a colleague, the project includes the call to three different API and includes the handling of different React libraries such as styled-components as well as the application of advanced React concepts.',
-      link: 'https://github.com/lucastgl/ProyectoWeatherApp',
+        'Weather App was a challenging project, here I used 3 different APIs, I included features like changing the theme, check the weather in any city and from your location. I applied react-context, styled-components, sass, and more libraries. I am still working on the last features.',
+      link: 'https://github.com/exequiel-mas/weather-app',
     },
     quizzical: {
       title: 'Quizzical App',
