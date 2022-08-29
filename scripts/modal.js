@@ -6,7 +6,7 @@ $(document).ready(function () {
       tag: "ENTERTAINMENT APP",
       detail:
         "Starflix is a great project, where I applied almost everything I know about React. Here you can search for movies and series by genre, title and actors, you can add them to your watchlist. It uses react-router, redux, styled-components, my own hooks, react-icons, formik, material-ui and more. It is not ready for production yet, I am working on it. You can ask for my project files on Github.",
-      link: "https://github.com/exequiel-mas/starflix",
+      link: "https://starflix-em.netlify.app/",
     },
     weather: {
       title: "Weather App",
