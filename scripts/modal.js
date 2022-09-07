@@ -85,6 +85,13 @@ $(document).ready(function () {
       detail: "Tackling Javascript Advanced",
       link: "https://github.com/exequiel-mas/forkify.git",
     },
+    queen: {
+      title: "Queen Cards Game",
+      tag: "INTERVIEW CHALLENGE",
+      detail:
+        "On this React project, Redux was chosen to manage the flow and state of the application and styled-components was chosen for component styling.",
+      link: "https://cards-game-em.netlify.app/",
+    },
   };
 
   $("#gallery .button").on("click", function () {

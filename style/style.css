@@ -1,14 +1,14 @@
 @font-face {
-  font-family: 'Raleway';
-  src: url('../fonts/Raleway-Regular.ttf');
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Regular.ttf");
 }
 @font-face {
-  font-family: 'Raleway-semibold';
-  src: url('../fonts/Raleway-SemiBold.ttf');
+  font-family: "Raleway-semibold";
+  src: url("../fonts/Raleway-SemiBold.ttf");
 }
 @font-face {
-  font-family: 'Raleway-bold';
-  src: url('../fonts/Raleway-Bold.ttf');
+  font-family: "Raleway-bold";
+  src: url("../fonts/Raleway-Bold.ttf");
 }
 @keyframes fadeIn {
   100% {
@@ -122,7 +122,7 @@ a {
 
 body {
   color: #fff;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-size: 8pt;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -148,7 +148,7 @@ body {
 }
 
 .canvas {
-  background: url('../img/filter.png') center center/cover;
+  background: url("../img/filter.png") center center/cover;
   height: 100%;
   left: 0;
   position: absolute;
@@ -174,7 +174,7 @@ body {
 }
 
 .bold {
-  font-family: 'Raleway-bold';
+  font-family: "Raleway-bold";
 }
 
 .flex {
@@ -207,7 +207,7 @@ body {
 
 .hexagon:before {
   background-color: inherit;
-  content: '';
+  content: "";
   height: inherit;
   position: absolute;
   right: calc((100% / 2) - ((100% * 0.57735) / 2));
@@ -218,7 +218,7 @@ body {
 
 .hexagon:after {
   background-color: inherit;
-  content: '';
+  content: "";
   height: inherit;
   position: absolute;
   right: calc((100% / 2) - ((100% * 0.57735) / 2));
@@ -233,7 +233,7 @@ body {
 
 .header {
   color: #444649;
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   font-size: 25pt;
   position: relative;
   position: relative;
@@ -412,7 +412,7 @@ nav .active {
   padding: 15px 10px 85px 10px;
 }
 .modal-wrap .title {
-  font-family: 'Raleway-bold';
+  font-family: "Raleway-bold";
   font-size: 16pt;
   line-height: 20pt;
 }
@@ -420,7 +420,7 @@ nav .active {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   color: #c0c0c0;
   display: block;
-  font-family: 'Raleway-bold';
+  font-family: "Raleway-bold";
   font-size: 8pt;
   font-weight: 300;
   padding-bottom: 15px;
@@ -491,7 +491,7 @@ section:nth-of-type(1) {
   padding: 0 10px;
 }
 section:nth-of-type(1) .highlight {
-  font-family: 'Raleway-semibold';
+  font-family: "Raleway-semibold";
 }
 section:nth-of-type(1) .text {
   font-size: 16pt;
@@ -610,6 +610,9 @@ section:nth-of-type(2) .bar:nth-child(12) .fill {
 section:nth-of-type(2) .bar:nth-child(13) .fill {
   transition: 2.3s 0.2s width ease-in-out;
 }
+section:nth-of-type(2) .bar:nth-child(14) .fill {
+  transition: 2.3s 0.2s width ease-in-out;
+}
 section:nth-of-type(2) .bar span {
   display: none;
 }
@@ -726,43 +729,46 @@ section:nth-of-type(3) #gallery .mix .button:hover {
   color: #fff;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
-  background: url('../img/thumb-1.jpg') center center/cover;
+  background: url("../img/thumb-1.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
-  background: url('../img/thumb-2.jpg') center center/cover;
+  background: url("../img/thumb-2.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
-  background: url('../img/thumb-3.jpg') center center/cover;
+  background: url("../img/thumb-3.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(4) .card {
-  background: url('../img/thumb-4.jpg') center center/cover;
+  background: url("../img/thumb-4.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(5) .card {
-  background: url('../img/thumb-5.jpg') center center/cover;
+  background: url("../img/thumb-5.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(6) .card {
-  background: url('../img/thumb-6.jpg') center center/cover;
+  background: url("../img/thumb-6.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(7) .card {
-  background: url('../img/thumb-7.jpg') center center/cover;
+  background: url("../img/thumb-7.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(8) .card {
-  background: url('../img/thumb-8.jpg') center center/cover;
+  background: url("../img/thumb-8.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(9) .card {
-  background: url('../img/thumb-9.jpg') center center/cover;
+  background: url("../img/thumb-9.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(10) .card {
-  background: url('../img/thumb-10.jpg') center center/cover;
+  background: url("../img/thumb-10.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(11) .card {
-  background: url('../img/thumb-11.jpg') center center/cover;
+  background: url("../img/thumb-11.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(12) .card {
-  background: url('../img/thumb-12.jpg') center center/cover;
+  background: url("../img/thumb-12.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(13) .card {
-  background: url('../img/thumb-13.jpg') center center/cover;
+  background: url("../img/thumb-13.jpg") center center/cover;
+}
+section:nth-of-type(3) #gallery .mix:nth-child(14) .card {
+  background: url("../img/thumb-14.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix .card {
   height: 240px;
@@ -826,7 +832,7 @@ section:nth-of-type(4) .thumb {
   margin: 0 0 15px 0;
 }
 section:nth-of-type(4) .date {
-  font-family: 'Open sans';
+  font-family: "Open sans";
   font-size: 7pt;
   margin: 5px 0 0 0;
 }
@@ -867,8 +873,8 @@ section:nth-of-type(5) form {
   margin: 40px auto 0 auto;
   min-width: 95%;
 }
-section:nth-of-type(5) input[type='text'],
-section:nth-of-type(5) input[type='email'],
+section:nth-of-type(5) input[type="text"],
+section:nth-of-type(5) input[type="email"],
 section:nth-of-type(5) textarea {
   background: #1e242c;
   border: 0;
@@ -986,7 +992,7 @@ footer .footnote {
 }
 footer .footnote .highlight {
   color: #e31b6d;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
 }
 
 @media screen and (max-width: 400px) {

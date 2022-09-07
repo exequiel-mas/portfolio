@@ -16,9 +16,9 @@ function floatySpace() {
     var line = new Line(0, angle).to(space.size.x, 0);
     var mouse = center.clone();
     var r = Math.min(space.size.x, space.size.y) * 1;
-    for(var i1 = 0; i1 < count; i1++){
+    for(var i = 0; i < count; i++){
         var p = new Vector(Math.random() * r - Math.random() * r, Math.random() * r - Math.random() * r);
-        p.moveBy(center).rotate2D(i1 * Math.PI / count, center);
+        p.moveBy(center).rotate2D(i * Math.PI / count, center);
         p.brightness = 0.1;
         pts.push(p);
     }

@@ -4,14 +4,14 @@ $(document).ready(function() {
         starflix: {
             title: "Starflix",
             tag: "ENTERTAINMENT APP",
-            detail: "Starflix is a great project, very scalable, where I applied almost everything I know about React. Here you can search for movies and series by genre, title and actors, you can add them to your watchlist. It uses react-router, redux, styled-components, my own hooks, react-icons, formik, material-ui and more. It is not ready for production yet, I am working on it. You can ask for my project files if you want",
-            link: "https://github.com/exequiel-mas/"
+            detail: "Starflix is a great project, where I applied almost everything I know about React. Here you can search for movies and series by genre, title and actors, you can add them to your watchlist. It uses react-router, redux, styled-components, my own hooks, react-icons, formik, material-ui and more. It is not ready for production yet, I am working on it. You can ask for my project files on Github.",
+            link: "https://starflix-em.netlify.app/"
         },
         weather: {
             title: "Weather App",
             tag: "WEATHER APP",
-            detail: "Weather App was a challenging project, here I used 3 different APIs, I included features like changing the theme, check the weather in any city and from your location. I applied react-context, styled-components, sass, and more libraries. I am still working on the last features.",
-            link: "https://github.com/exequiel-mas/weather-app"
+            detail: "Weather App was a challenging project. Developed by me and a partner. We used 3 different APIs and included features like changing the theme, check the weather in any city and from your location. We used react-context, styled-components, sass, and more libraries.",
+            link: "https://weather-app-le.netlify.app/"
         },
         quizzical: {
             title: "Quizzical App",
@@ -75,6 +75,12 @@ $(document).ready(function() {
             tag: "FOOD RECIPES APP",
             detail: "Tackling Javascript Advanced",
             link: "https://github.com/exequiel-mas/forkify.git"
+        },
+        queen: {
+            title: "Queen Cards Game",
+            tag: "INTERVIEW CHALLENGE",
+            detail: "On this React project, Redux was chosen to manage the flow and state of the application and styled-components was chosen for component styling.",
+            link: "https://cards-game-em.netlify.app/"
         }
     };
     $("#gallery .button").on("click", function() {
