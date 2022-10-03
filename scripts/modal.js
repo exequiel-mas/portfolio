@@ -92,6 +92,13 @@ $(document).ready(function () {
         "On this React project, Redux was chosen to manage the flow and state of the application and styled-components was chosen for component styling.",
       link: "https://cards-game-em.netlify.app/",
     },
+    todoapp: {
+      title: "ToDo App",
+      tag: "TASK MANAGEMENT",
+      detail:
+        "This is an app for task management using an API for loging users and saving tasks.",
+      link: "https://todo-app-em.netlify.app/",
+    },
   };
 
   $("#gallery .button").on("click", function () {
